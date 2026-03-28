@@ -21,4 +21,5 @@ RUN uv sync --no-dev
 
 # 7. Run application
 ENV PATH="/app/.venv/bin:$PATH"
+
 CMD ["uv", "run", "./app/main.py"]
