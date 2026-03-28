@@ -3,11 +3,9 @@
 {
 	"name": "Ubuntu",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:noble",
-	"features": {
-		"ghcr.io/devcontainers-extra/features/uv:1": {},
-		"ghcr.io/devcontainers-extra/features/git-lfs:1": {}
-	}
+	"build": {
+		"dockerfile": "Dockerfile" // Path to your Dockerfile
+	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
