@@ -4,7 +4,7 @@
 	"name": "Ubuntu",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"build": {
-		"dockerfile": "Dockerfile" // Path to your Dockerfile
+		"dockerfile": "../Dockerfile" // Path to your Dockerfile
 	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
